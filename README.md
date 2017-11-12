@@ -102,3 +102,10 @@ Treat your application’s configuration the same way you treat your code. Manag
 
 - Ensure that you have tests for your configuration that are run at deployment or installation time. Check that the services your application depends upon are available, and use smoke tests to assert that any functionality depending on your configuration settings works as it should.
 
+## Conclusion
+
+If your configuration management process is sound, you should be able to answer “yes” to the following questions:
+
+- Could you completely re-create your production system, excluding produc- tion data, from scratch from the version-controlled assets that you store?
+- Could you regress to an earlier, known good state of your application?
+- Can you be sure that each deployed environment in production, in staging, and in test is set up in precisely the same way?
