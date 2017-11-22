@@ -109,3 +109,8 @@ If your configuration management process is sound, you should be able to answer 
 - Could you completely re-create your production system, excluding produc- tion data, from scratch from the version-controlled assets that you store?
 - Could you regress to an earlier, known good state of your application?
 - Can you be sure that each deployed environment in production, in staging, and in test is set up in precisely the same way?
+
+## References
+
+- Book - Continuous Delivery - Reliable Software Releases Through Build, Test And Deployment Automation
+- [Environment-Dependent Property Management Strategies for OpenShift Pipelines](https://blog.openshift.com/environment-dependent-property-management-strategies-openshift-pipelines/)
